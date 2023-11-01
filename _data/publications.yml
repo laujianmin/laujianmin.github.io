@@ -1,0 +1,23 @@
+main:
+
+  - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
+    authors: Xiaoding Wang; <strong>Jianmin Liu</strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud (*Corresponding authors)
+    journal_short: INFFUS
+    journal: Information Fusion <strong>(INFFUS)</strong>, 2023.
+    # conference: International Conference 
+    pdf: https://doi.org/10.1016/j.inffus.2023.102046
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/inffus-motion.png
+    notes: SCI-1
+
+  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  #   conference_short: CVPR
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Oral Presentation
+  #   image: ./assets/img/teaser_example.png

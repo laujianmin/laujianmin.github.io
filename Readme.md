@@ -1,4 +1,4 @@
-# yaoyao-liu.github.io
+# laujianmin.github.io
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/laujianmin/laujianmin.github.io/blob/main/LICENSE)
 

@@ -7,7 +7,7 @@ main:
     pdf: https://doi.org/10.1016/j.inffus.2023.102046
     bibtex: https://doi.org/10.1016/j.inffus.2023.102046
     image: ./assets/img/inffus-motion.png
-    notes: SCI-1
+    notes: SCI-1区
 
   - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
     authors: <strong>Jianmin Liu</strong>; Xiaoding Wang;  Hui Lin*; Feng Yu (*Corresponding authors)

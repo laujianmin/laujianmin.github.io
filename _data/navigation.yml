@@ -9,7 +9,7 @@ main:
   - title: "News"
     url: ./news
 
-  - title: "Bio"
+  - title: "Biography"
     url: ./
 
   #- title: "Services"

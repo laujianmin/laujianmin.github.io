@@ -23,6 +23,13 @@ main:
     journal_short: ACM-TOSN
     journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>, 2023.
     pdf: https://doi.org/10.1145/3631608
-    bibtex: https://doi.org/10.1145/3631608
+    bibtex: |
+            @article{liu2023gsaa,
+            title={GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction},
+            author={Liu, Jianmin and Wang, Xiaoding and Lin, Hui and Yu, Feng},
+            journal={ACM Transactions on Sensor Networks},
+            year={2023},
+            publisher={ACM New York, NY}
+            }
     image: ./assets/teaser/acm-tosn.png 
     notes: CCF-B

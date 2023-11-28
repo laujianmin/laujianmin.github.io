@@ -30,7 +30,7 @@
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
       {% if link.bibtex %} 
-      <button class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;" onclick="copyToClipboard(`{{ link.bibtex }}`)">BibTex</button>
+      <button class="bibtex" role="button" target="_blank" style="font-size:12px;" onclick="copyToClipboard(`{{ link.bibtex }}`)">BibTex</button>
       <!-- <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a> -->
       {% endif %}
       {% if link.notes %} 

@@ -3,9 +3,18 @@ main:
   - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
     authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud (*Corresponding authors)
     journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>, 2023.
+    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
     pdf: https://doi.org/10.1016/j.inffus.2023.102046
-    bibtex: https://doi.org/10.1016/j.inffus.2023.102046
+    bibtex: | 
+            @article{wang2024multi, 
+              title={A multi-modal spatial--temporal model for accurate motion forecasting with visual fusion},
+              author={Wang, Xiaoding and Liu, Jianmin and Lin, Hui and Garg, Sahil and Alrashoud, Mubarak},
+              journal={Information Fusion},
+              volume={102},
+              pages={102046},
+              year={2024},
+              publisher={Elsevier}
+            }
     image: ./assets/teaser/inffus-motion.png
     notes: SCI-1区
 

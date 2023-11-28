@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="./assets/css/nav.css">
   <link rel="stylesheet" href="./assets/css/map.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
+  <script src="./assets/js/copy2clipboard.js"></script>
   <script src="./assets/js/github-stars.js"></script>
   <script type="text/javascript" src="./assets/js/jquery.js"></script>
   <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>

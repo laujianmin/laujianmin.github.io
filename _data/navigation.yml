@@ -1,8 +1,16 @@
 main:
-
   - title: "Contact"
-    url: ./#contact 
+    url: ./contact 
     right: true 
+
+  - title: "Publications"
+    url: ./publications
+
+  - title: "News"
+    url: ./news
+
+  - title: "Bio"
+    url: ./
 
   #- title: "Services"
   #  url: ./#services
@@ -13,11 +21,3 @@ main:
   #- title: "Teaching"
   #  url: ./#teaching
 
-  - title: "Publications"
-    url: ./#publications
-
-  #- title: "News"
-  #  url: ./#news
-
-  - title: "Bio"
-    url: ./#about-me

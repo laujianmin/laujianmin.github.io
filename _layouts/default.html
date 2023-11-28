@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.md %}
+  <body>
+      {% include navigation.md %}
+    <div class="wrapper">
+      {% include header.md %}
+      <section>
+          {{ content }}
+    </section>
+      </div>
+      {% include_relative _layouts/clustrmap.html %}
+      {% include footer.md %}
+      <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

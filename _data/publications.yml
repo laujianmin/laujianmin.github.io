@@ -6,7 +6,7 @@ main:
     journal: Information Fusion <strong>(INFFUS)</strong>, 2023.
     pdf: https://doi.org/10.1016/j.inffus.2023.102046
     bibtex: https://doi.org/10.1016/j.inffus.2023.102046
-    image: ./assets/img/inffus-motion.png
+    image: ./assets/teaser/inffus-motion.png
     notes: SCI-1区
 
   - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
@@ -15,5 +15,5 @@ main:
     journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>, 2023.
     pdf: https://doi.org/10.1145/3631608
     bibtex: https://doi.org/10.1145/3631608
-    image: ./assets/img/acm-tosn.png 
+    image: ./assets/teaser/acm-tosn.png 
     notes: CCF-B

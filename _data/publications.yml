@@ -1,4 +1,21 @@
 main:
+  - title: Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model
+    authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan(*Corresponding authors)
+    journal_short: INFFUS
+    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
+    pdf: https://doi.org/10.1016/j.inffus.2024.102309
+    bibtex: | 
+            @article{liu2024reliable,
+              title={Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model},
+              author={Liu, Jianmin and Lin, Hui and Wang, Xiaoding and Wu, Lizhao and Garg, Sahil and Hassan, Mohammad Mehedi},
+              journal={Information Fusion},
+              volume={102},
+              pages={102309},
+              year={2024},
+              publisher={Elsevier}
+            }
+    image: ./assets/teaser/inffus-causal.png
+    notes: SCI-1区
 
   - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
     authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud (*Corresponding authors)

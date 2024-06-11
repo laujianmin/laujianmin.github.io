@@ -6,7 +6,8 @@ author: Jianmin Liu
 # Ph.D. Student
 affiliation: Xi'an Jiaotong University
 # affiliation_link: https://cs.jhu.edu/
-affiliation_logo: http://cybersec.xjtu.edu.cn/images/logoxx.png
+affiliation_logo: ./assets/img/logo_school.png
+# http://cybersec.xjtu.edu.cn/images/logoxx.png
 # https://ccs.fjnu.edu.cn/_upload/tpl/0a/56/2646/template2646/images/logo.png
 email: laujianmin@foxmail.com
 repository: laujianmin/laujianmin.github.io

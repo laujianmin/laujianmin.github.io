@@ -37,7 +37,7 @@
     <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
       <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
     </a>  
-    {% endif %}
+    {% endif %} 
 
     {% if site.cv_link %}
     <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">

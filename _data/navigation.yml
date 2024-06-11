@@ -1,16 +1,20 @@
 main:
-  - title: "Contact"
-    url: ./contact 
-    right: true 
-
-  - title: "Publications"
-    url: ./publications
+  - title: "Biography"
+    url: ./
+    anchor: "#"
 
   - title: "News"
     url: ./news
+    anchor: "#news"
 
-  - title: "Biography"
-    url: ./
+  - title: "Publications"
+    url: ./publications
+    anchor: "#publications"
+
+  - title: "Contact"
+    url: ./contact 
+    anchor: "#contact"
+    right: true 
 
   #- title: "Services"
   #  url: ./#services

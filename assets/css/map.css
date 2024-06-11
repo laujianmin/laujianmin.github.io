@@ -9,3 +9,29 @@
     margin-left:10%;
     text-align: center;
 }
+
+/* 当屏幕宽度小于1200px时隐藏地图容器 */
+@media screen and (max-width: 959px) {
+      #map-container {
+        display: none;
+      }
+    }
+    
+    /* 当屏幕宽度在1000px到1200px之间时，调整地图容器的左边距 */
+    @media screen and (min-width: 1020px) and (max-width: 1150px) {
+      #map-container {
+        margin-left: 5vw; /* 使用视口宽度的10%作为左边距，或直接写10% */
+      }
+    }
+    
+    @media screen and (min-width: 1150px) and (max-width: 1500px) {
+      #map-container {
+        margin-left: 10vw; /* 使用视口宽度的10%作为左边距，或直接写10% */
+      }
+    }
+    
+    @media screen and (min-width: 1500px) {
+      #map-container {
+        margin-left: 20vw;
+      }
+    }

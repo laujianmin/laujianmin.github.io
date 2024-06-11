@@ -1,16 +1,17 @@
 
 # Basic Information 
 title: Liu Jianmin
-position: Master Student
+position: Ph.D. Student
 author: Jianmin Liu 
 # Ph.D. Student
-affiliation: Fujian Normal University
+affiliation: Xi'an Jiaotong University
 # affiliation_link: https://cs.jhu.edu/
-affiliation_logo: https://ccs.fjnu.edu.cn/_upload/tpl/0a/56/2646/template2646/images/logo.png
+affiliation_logo: http://cybersec.xjtu.edu.cn/images/logoxx.png
+# https://ccs.fjnu.edu.cn/_upload/tpl/0a/56/2646/template2646/images/logo.png
 email: laujianmin@foxmail.com
 repository: laujianmin/laujianmin.github.io
 
-# The option is used to enable the Fujian Normal University template.
+# The option is used to enable the Xi'an Jiaotong University template.
 # enable_hopkins_logo: true
 
 # The option is used to show the last update time.
@@ -30,11 +31,10 @@ favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnotes
-footnote: Copyright © 2023 -- by Jianmin Liu.
+footnote: Copyright © 2023-2024 -- by Jianmin Liu.
 # footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Footer 设置数据保护（cookie记录） 和 隐私政策
-# imprint: nothing happens
 # data_protection: nothing happens
 
 

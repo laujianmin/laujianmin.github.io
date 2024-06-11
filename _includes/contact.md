@@ -1,4 +1,4 @@
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-5" id="contact">
   <div>
     <h2 style="margin: 60px 0px 10px;">Contact</h2>
     {% for contact in site.data.settings.contacts %}

@@ -22,4 +22,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Jianmin Liu', title: 'Master Student', department: 'College of Computer and Cyber Security', institution: 'Fujian Normal University', institution_address: 'FUZHOU, CHINA', phone: '(000) 000-0000', email: 'laujianmin@foxmail.com', office: 'Science Building #18', image: 'assets/img/contact.png'}
+- {name: 'Jianmin Liu', title: 'Ph.D. Student', department: 'School of Cyber Science and Engineering', institution: "Xi'an Jiaotong University", institution_address: "Xi'an, CHINA", phone: '(000) 000-0000', email: 'laujianmin@foxmail.com', office: '##-##-##', image: 'assets/img/contact.png'}

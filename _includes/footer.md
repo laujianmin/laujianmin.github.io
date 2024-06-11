@@ -1,9 +1,9 @@
 <footer id="footer-container">
     {% if site.footnote %}
-        <div>
-          <br>
+        <!-- <div> -->
+          <!-- <br> -->
           <a>{{ site.footnote }}</a>
-        </div>
+        <!-- </div> -->
         {% endif %}
   <div style="font: 12px/1.2 Crimson Pro, serif">
     <p>

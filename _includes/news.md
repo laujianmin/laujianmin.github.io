@@ -2,14 +2,20 @@
 
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
-<ul>
-<li><strong>[Nov. 2023]</strong> Our paper about traffic forecasting is accepted by ACM Transactions on Sensor Networks. </li>
-<li><strong>[Oct. 2023]</strong> Our paper about trajectory forecasting is accepted by Elsevier Information Fusion. </li>
+<ul id="newsList">
+  {% assign max_visible = 3 %}<!--设置visible item number -->
+  {% for link in site.data.news.main %}
+  {% if forloop.index <= max_visible %}
+  <li><strong>[{{ link.date }}]</strong> {{ link.msg }}</li>
+  {% endif %}
+  {% endfor %}
+  <li id="toggleLink"><a href="javascript:toggle_vis('newsmore')">Show More</a></li>
 
-  
-<li> <a href="javascript:toggle_vis('newsmore')">Show more</a> </li>
-<div id="newsmore" style="display:none"> 
-  <li><strong>[Oct. 2023]</strong> Our paper about trajectory forecasting is accepted by Elsevier Information Fusion. </li>
-</div>
-
+  <div id="newsmore" style="display:none">
+    {% for link in site.data.news.main %}
+    {% if forloop.index0 >= max_visible %}
+    <li><strong>[{{ link.date }}]</strong> {{ link.msg }}</li>
+    {% endif %}
+    {% endfor %}
+  </div>  
 </ul>

@@ -1,0 +1,175 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 200px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+            border-radius: 7%; /* 添加此行以设置圆角 */
+        }
+    }
+
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+
+        /* 添加竖线 */
+        &::before {
+            content: ''; /* 必须有content属性，即使为空 */
+            position: absolute;
+            left: -20px; /* 调整竖线与文本之间的距离 */
+            top: 0;
+            bottom: 0;
+            width: 1px; /* 竖线的宽度 */
+            background-color: #efefef; /* 竖线的颜色 */
+        }
+    }
+
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 25%;
+            order: 1;
+        }
+
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 75%;
+            order: 2;
+
+            /* 在响应式布局中调整竖线的位置 */
+            &::before {
+                left: -2%; /* 根据需要调整距离 */
+            }
+        }
+
+    }
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #4E5257;
+    font-size: .8em;
+}
+
+
+.title {
+    font-size: 16px; /* 设置字号为24px */
+    font-weight: bold; /* 设置字体加粗 */
+}
+
+
+a {
+    color: #77bbdb; /* 设置超链接字体颜色为深灰色 */
+    text-decoration: none !important; /* 取消超链接下划线 */
+}
+
+// 按钮风格
+.small-btn {
+    background-color: #ffffff; /* 设置按钮背景颜色为白色 */
+    color: #333333; /* 设置按钮文字颜色为深灰色 */
+    padding: 8px 14px; /* 设置较小的按钮内边距 */
+    border: 1px solid #cccccc; /* 添加按钮边框 */
+    border-radius: 5px; /* 设置按钮边框圆角 */
+    font-size: 12px; /* 设置较小的按钮文字大小 */
+    cursor: pointer; /* 鼠标悬停时显示手型光标 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加按钮阴影效果 */
+    transition: box-shadow 0.3s; /* 添加过渡效果 */
+}
+
+.small-btn:hover {
+    background-color: #f9f9fa; /* 稍微深一点的背景色 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* 更深的阴影 */
+}
+
+
+.small-ios-btn {
+    margin-top: 10px;
+    background-color: white; /* 白色背景 */
+    color: #6c757d; /* 灰色文字 */
+    border: 1px solid #e5e5ea; /* 浅灰色边框 */
+    padding: 6px 12px; /* 减少内边距 */
+    border-radius: 12px; /* 减少圆角半径 */
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 模拟浅影 */
+    font-size: 12px; /* 设置字体大小为12px */
+  }
+
+  .small-ios-btn:hover {
+    background-color: #f9f9fa; /* 稍微深一点的背景色 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* 更深的阴影 */
+  }
+

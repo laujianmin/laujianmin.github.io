@@ -1,0 +1,32 @@
+<script>
+    $(document).ready(function () {
+        {% if site.google_scholar_stats_use_cdn %}
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@';
+        {% else %}
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/';
+        {% endif %}
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby'];
+            document.getElementById('total_cit').innerHTML = '[Total number of citations: '+totalCitation+']';
+
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function(element, index) {
+                var paperId = element.getAttribute('data');
+                var numCitations = data['publications'][paperId]['num_citations'];
+                if (numCitations === 0) { return; } // 如果numCitations为0，跳过
+
+                // 更新显示引用数的文本
+                element.innerHTML = '| Citations: ';
+
+                // 创建一个链接元素
+                var link = document.createElement('a');
+                link.href = data['publications'][paperId]['citedby_url'];
+                link.target = '_blank'; // 在新标签页打开链接
+                link.textContent = numCitations.toString();
+
+                // 将链接添加到显示引用数的位置
+                element.appendChild(link);
+            });
+        });
+    });
+</script>

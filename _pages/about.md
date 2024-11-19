@@ -32,7 +32,7 @@ redirect_from:
 {% include_relative includes/contact.md %} -->
 
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=002d72&w=300&t=tt&d=aJXbRAq8L914nem5MbNfBr6sHx9heTatErrk5KvM6hA&co=ffffff&cmo=6fcac7&cmn=21ee21&ct=9f498a'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=a09d9d&w=550&t=n&d=aJXbRAq8L914nem5MbNfBr6sHx9heTatErrk5KvM6hA&co=ffffff&cmo=7f77ed&cmn=66e866&ct=133970'></script>
 
 {% include_relative includes/footer.md %}
 

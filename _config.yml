@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zihang Zhen"
-description              : "Huazhong University of Science and Technology"
-repository               : "zihangzhen/zihangzhen.github.io"
+title                    : "Jianmin Liu"
+description              : "Xi'an Jiaotong University"
+repository               : "laujianmin/laujianmin.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -20,17 +20,19 @@ google_site_verification :  # get google_site_verification from https://search.g
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  codeva-AySkA5Tqi4 # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
+footnote: Copyright © 2023-2024 -- by Jianmin Liu.
+
 # Site Author
 author:
-  name             : "Zihang Zhen"
+  name             : "Jianmin Liu <br> (刘建敏)"
   avatar           : "assets/images/avatar.png"
   bio              : "Ph.D. Student"
-  location         : "Wuhan, China"
+  location         : "Xi'an, China"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=RpkFU_oAAAAJ"
-  email            : "zzihang@foxmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Zihang-Zhen" # e.g., "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=zigGlzAAAAAJ"
+  email            : "laujianmin@foxmail.com"
+  researchgate     :  #"https://www.researchgate.net/profile/Zihang-Zhen" # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -38,7 +40,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "zihangzhen" # e.g., "github username"
+  github           : "laujianmin" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
@@ -46,7 +48,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0008-0609-6812" # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0000-0001-8978-5972" # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -59,6 +61,8 @@ author:
   youtube          :
   wikipedia        :
 
+# contacts:
+# - {name: 'Jianmin Liu', title: 'Ph.D. Student', department: 'School of Cyber Science and Engineering', institution: "Xi'an Jiaotong University", institution_address: "Xi'an, CHINA", phone: '(000) 000-0000', email: 'laujianmin@foxmail.com', office: '##-##-##', image: 'assets/img/contact.png'}
 
 # Reading Files
 include:

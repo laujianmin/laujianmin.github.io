@@ -1,64 +1,58 @@
 main:
-  - title: 'SemantiChain: A Trust Retrieval Blockchain based on Semantic Sharding'
-    authors: <strong>Zihang Zhen</strong>; Xiaoding Wang; Xu Yang; Jiwu Shu; Jia Hu; Hui Lin; Xun Yi
-    journal_short: IEEE TIFS
-    journal: IEEE Transactions on Information Forensics & Security <strong>(TIFS)</strong>, 2024.
-    keywords: Semantic Sharding, Blockchain, Information Retrieval, Scalability, ANN
-    cited: RpkFU_oAAAAJ:9yKSN-GCB0IC
-    pdf: assets/file/SemantiChain-tifs.pdf
-    doi: https://doi.org/10.1109/TIFS.2024.3488501
-    bibtex: |
-            @article{10741559,
-            author={Zhen, Zihang and Wang, Xiaoding and Yang, Xu and Shu, Jiwu and Hu, Jia and Lin, Hui and Yi, Xun},
-            journal={IEEE Transactions on Information Forensics and Security},
-            title={SemantiChain: A Trust Retrieval Blockchain based on Semantic Sharding},
-            year={2024},
-            volume={},
-            number={},
-            pages={1-1},
-            }
-    image: assets/images/teaser/SemantiChain-tifs.jpg
-    notes: "<span style='color:#df7983;'>CCF-A</span>, SCI-Q1, IF6.3"
-
-  - title: 'Fed-PEMC: A Privacy-Enhanced Federated Deep Learning Algorithm for Consumer Electronics in Mobile Edge Computing'
-    authors: Qingxin Lin; Shui Jiang; <strong>Zihang Zhen</strong>; Tianchi Chen; Chenxiang Wei; Hui Lin
-    journal_short: IEEE TCE
-    journal: IEEE Transactions on Consumer Electronics <strong>(IEEE TCE)</strong>, 2024.
-    keywords: Federated Learning, Deep Reinforcement Learning, Local Differential Privacy
-    cited: RpkFU_oAAAAJ:u-x6o8ySG0sC
-    pdf: assets/file/Fed-PEMC-ieeetce.pdf
-    doi: https://doi.org/10.1109/tce.2024.3351648
-    bibtex: |
-            @article{10384805,
-            author={Lin, Qingxin and Jiang, Shui and Zhen, Zihang and Chen, Tianchi and Wei, Chenxiang and Lin, Hui},
-            journal={IEEE Transactions on Consumer Electronics},
-            title={Fed-PEMC: A Privacy-Enhanced Federated Deep Learning Algorithm for Consumer Electronics in Mobile Edge Computing},
-            year={2024},
-            volume={70},
-            number={1},
-            pages={4073-4086}
-            }
-    image: assets/images/teaser/Fed-PEMC-ieeetce.gif
-    notes: SCI-Q2, IF4.3
-
-  - title: A Dynamic State Sharding Blockchain Architecture for Scalable and Secure Crowdsourcing Systems
-    authors: <strong>Zihang Zhen</strong>; Xiaoding Wang; Hui Lin; Sahil Garg; Prabhat Kumar; M Shamim Hossain
-    journal_short: JNCA
-    journal: Journal of Network and Computer Applications <strong>(JNCA)</strong>, 2023.
-    keywords: Blockchain, State sharding, Crowdsourcing, Deep reinforcement learning
-    cited: RpkFU_oAAAAJ:u5HHmVD_uO8C
-    pdf: assets/file/dssbd-jnca.pdf
-    doi: https://doi.org/10.1016/j.jnca.2023.103785
-    bibtex: |
-            @article{zhen2024dynamic,
-              title={A dynamic state sharding blockchain architecture for scalable and secure crowdsourcing systems},
-              author={Zhen, Zihang and Wang, Xiaoding and Lin, Hui and Garg, Sahil and Kumar, Prabhat and Hossain, M Shamim},
-              journal={Journal of Network and Computer Applications},
-              volume={222},
-              pages={103785},
+  - title: Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model
+    authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan(*Corresponding authors)
+    journal_short: INFFUS
+    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
+    keywords: Trajectory prediction, Causal inference, Scene fusion, Intelligent transportation
+    cited : zigGlzAAAAAJ:9yKSN-GCB0IC
+    pdf: https://doi.org/10.1016/j.inffus.2024.102309
+    bibtex: | 
+            @article{liu2024reliable,
+              title={Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model},
+              author={Liu, Jianmin and Lin, Hui and Wang, Xiaoding and Wu, Lizhao and Garg, Sahil and Hassan, Mohammad Mehedi},
+              journal={Information Fusion},
+              volume={102},
+              pages={102309},
               year={2024},
               publisher={Elsevier}
             }
-    image: assets/images/teaser/dssbd-jnca.jpg
-    notes: CCF-C, SCI-Q1, IF8.7
+    image: ./assets/images/teaser/inffus-causal.png
+    notes: SCI-1区,IF=18.6
 
+  - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
+    authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud (*Corresponding authors)
+    journal_short: INFFUS
+    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
+    keywords: Motion forecasting, Intelligent transportation, Spatial–temporal cross attention
+    cited: zigGlzAAAAAJ:u5HHmVD_uO8C
+    pdf: https://doi.org/10.1016/j.inffus.2023.102046
+    bibtex: | 
+            @article{wang2024multi, 
+              title={A multi-modal spatial--temporal model for accurate motion forecasting with visual fusion},
+              author={Wang, Xiaoding and Liu, Jianmin and Lin, Hui and Garg, Sahil and Alrashoud, Mubarak},
+              journal={Information Fusion},
+              volume={102},
+              pages={102046},
+              year={2024},
+              publisher={Elsevier}
+            }
+    image: ./assets/images/teaser/inffus-motion.png
+    notes: SCI-1区,IF=18.6
+
+  - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
+    authors: <strong><u>Jianmin Liu</u></strong>; Xiaoding Wang;  Hui Lin*; Feng Yu (*Corresponding authors)
+    journal_short: ACM-TOSN
+    journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>, 2023.
+    keywords: Traic Prediction, Graph Neural Networks, Attention Mechanism
+    cited: zigGlzAAAAAJ:u-x6o8ySG0sC
+    pdf: https://doi.org/10.1145/3631608
+    bibtex: |
+            @article{liu2023gsaa,
+            title={GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction},
+            author={Liu, Jianmin and Wang, Xiaoding and Lin, Hui and Yu, Feng},
+            journal={ACM Transactions on Sensor Networks},
+            year={2023},
+            publisher={ACM New York, NY}
+            }
+    image: ./assets/images/teaser/acm-tosn.png 
+    notes: CCF-B

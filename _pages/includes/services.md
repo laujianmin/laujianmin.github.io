@@ -1,7 +1,14 @@
 # 💬 Services
 <ul style="margin:0 0 5px;">
-  <li>Reviewer for <a href="https://www2.cloud.editorialmanager.com/jnca/default.aspx">JNCA(2023,2024)</a>, <a href="https://www.editorialmanager.com/comcom/Default.aspx">ComCom(2024)</a>.</li>
-  <li>Teaching assistant for <em>Machine Learning</em>(Fall 2024), <em>Computer Networks</em>(Fall 2023).</li>
+
+  {% for service in site.data.service.main %}
+    {% if service.event == 'Reviewer' %}
+      <li>{{ service.event }} for <a href="{{ service.href }}">{{ service.object }}({{ service.date }})</a>.</li>
+    {% endif %}
+    {% if service.event == 'Assistant' %}
+      <li>Teaching assistant for <em>{{ service.object }}</em> courses ({{ service.date }}).</li>
+    {% endif %}
+  {% endfor %}
 </ul>
 
 <!-- # 🎖 Honors and Awards

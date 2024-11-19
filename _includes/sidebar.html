@@ -9,6 +9,14 @@
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
     {% endfor %}
+    <center><span style="color: grey; font-size: 12.5px;">Last updated:
+      <script>
+          const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+          var modiDate = new Date(document.lastModified);
+          var showAs = monthNames[modiDate.getMonth()] + " " + modiDate.getDate() + ", " + modiDate.getFullYear();
+          document.write(showAs);
+      </script>
+  </span></center>
   {% endif %}
   </div>
 {% endif %}

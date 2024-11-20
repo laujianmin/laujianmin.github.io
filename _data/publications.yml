@@ -6,6 +6,7 @@ main:
     keywords: Trajectory prediction, Causal inference, Scene fusion, Intelligent transportation
     cited : zigGlzAAAAAJ:9yKSN-GCB0IC
     pdf: https://doi.org/10.1016/j.inffus.2024.102309
+    slices:
     bibtex: | 
             @article{liu2024reliable,
               title={Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model},

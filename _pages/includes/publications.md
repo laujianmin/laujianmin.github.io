@@ -26,6 +26,9 @@
       {% if link.bibtex %}
       <button class="small-btn" role="button" target="_blank" style="font-size:12.5px;" onclick="copyToClipboard(`{{ link.bibtex }}`)">BibTex</button>
       {% endif %}
+      {% if link.slices %}
+      <a href="{{ link.slices }}" class="small-btn" role="button" target="_blank" style="font-size:12px;">Slices</a>
+      {% endif %}
       {% if link.others %}
       {{ link.others }}
       {% endif %}

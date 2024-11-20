@@ -1,6 +1,6 @@
-main:
+journal:
   - title: Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model
-    authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan(*Corresponding authors)
+    authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan
     journal_short: INFFUS
     journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
     keywords: Trajectory prediction, Causal inference, Scene fusion, Intelligent transportation
@@ -21,7 +21,7 @@ main:
     notes: SCI-1区,IF=18.6
 
   - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
-    authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud (*Corresponding authors)
+    authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud
     journal_short: INFFUS
     journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
     keywords: Motion forecasting, Intelligent transportation, Spatial–temporal cross attention
@@ -41,7 +41,7 @@ main:
     notes: SCI-1区,IF=18.6
 
   - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
-    authors: <strong><u>Jianmin Liu</u></strong>; Xiaoding Wang;  Hui Lin*; Feng Yu (*Corresponding authors)
+    authors: <strong><u>Jianmin Liu</u></strong>; Xiaoding Wang;  Hui Lin*; Feng Yu
     journal_short: ACM-TOSN
     journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>, 2023.
     keywords: Traic Prediction, Graph Neural Networks, Attention Mechanism

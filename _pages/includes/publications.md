@@ -1,5 +1,6 @@
 # 📝 Publications
-{% for link in site.data.publications.main %}
+<p><strong>Note: *</strong>  <em>indicates</em> Corresponding authors.</p>
+{% for link in site.data.publications.journal %}
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div><div class="badge">{{ link.journal_short }}</div><img src='{{ link.image }}' alt="sym" width="100%"></div>

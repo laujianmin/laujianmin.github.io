@@ -3,7 +3,7 @@
 
   {% for service in site.data.service.main %}
     {% if service.event == 'Reviewer' %}
-      <li>{{ service.event }} for <a href="{{ service.href }}">{{ service.object }}({{ service.date }})</a>.</li>
+      <li>{{ service.event }} for <a href="{{ service.href }}">{{ service.object }} ({{ service.date }})</a>.</li>
     {% endif %}
     {% if service.event == 'Assistant' %}
       <li>Teaching assistant for <em>{{ service.object }}</em> courses ({{ service.date }}).</li>

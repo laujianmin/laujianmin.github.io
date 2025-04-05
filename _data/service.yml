@@ -1,8 +1,8 @@
 main:
-  # - date: 2022-2023
-  #   event: Reviewer
-  #   object: TOSN
-  #   href: 
+  - date: 2025
+    event: Reviewer
+    object: IEEE Internet of Things Journal
+    href: https://webofscience.clarivate.cn/wos/author/record/JMC-6331-2023
 
   - date: 2023
     event: Assistant

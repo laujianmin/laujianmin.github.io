@@ -268,3 +268,21 @@
     display: none;
   }
 }
+
+.sidebar-map {
+  margin-top: 15px; /* 在地图上方添加一些空间 */
+  margin-bottom: 15px; /* 在地图下方添加一些空间 */
+  text-align: center; /* 地图居中 */
+  pointer-events: none; /* 禁止所有交互 */
+  user-select: none;
+}
+
+.sidebar-map #clustrmaps-widget-v2{
+  min-height:90px;
+}
+.sidebar-map #clustrmaps {
+  display: block; /* 使地图成为块级元素 */
+  margin: 0 auto; /* 再次确保居中 */
+  max-width: 100%; /* 防止地图超出侧边栏宽度 */
+  height: auto; /* 保持宽高比 */
+}

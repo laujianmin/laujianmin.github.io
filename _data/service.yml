@@ -1,11 +1,13 @@
 main:
   - date: 2025
-    event: Journal_Reviews
+    event: Reviewer
+    type: Journal
     object: IEEE Transactions on Dependable and Secure Computing
     # href: https://webofscience.clarivate.cn/wos/author/record/JMC-6331-2023
 
   - date: 2025
-    event: Journal_Reviews
+    event: Reviewer
+    type: Journal
     object: IEEE Internet of Things Journal
     # href: https://webofscience.clarivate.cn/wos/author/record/JMC-6331-2023
 

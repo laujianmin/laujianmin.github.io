@@ -1,33 +1,33 @@
 # 💬 Services
 <ul style="margin:0 0 5px;">
 
-  {% assign journal_reviews = site.data.service.main | where: "event", "Journal_Reviews" %}
+  {% assign journal_reviews = site.data.service.main | where: "event", "Reviewer" | where: "type", "Journal"  %}
   {% if journal_reviews.size > 0 %}
-    <h4>[Journal Reviews]</h4>
     {% for service in journal_reviews %}
         <li>
-          <!-- {{ service.event }} for  -->
+          {{ service.event }} for 
           {% if service.href %}  
             <a href="{{ service.href }}">{{ service.object }} ({{ service.date }})</a>
           {% else %}
             {{ service.object }} ({{ service.date }})
-          {% endif %}.
+          {% endif %}
+          [J].
         </li>
     {% endfor %}
   {% endif %}
 
   <!-- 会议审稿（仅在存在数据时显示整个版块） -->
-  {% assign conference_reviews = site.data.service.main | where: "event", "Conference_Reviews" %}
+  {% assign conference_reviews = site.data.service.main | where: "event", "Reviewer" | where: "type", "Conference" %}
   {% if conference_reviews.size > 0 %}
-    <h4>[Conference Reviews]</h4>
     {% for service in conference_reviews %}
       <li>
-        <!-- {{ service.event }} for  -->
+        {{ service.event }} for 
         {% if service.href %}  
           <a href="{{ service.href }}">{{ service.object }} ({{ service.date }})</a>
         {% else %}
           {{ service.object }} ({{ service.date }})
-        {% endif %}.
+        {% endif %}
+        [C].
       </li>
       {% endfor %}
   {% endif %}

@@ -90,3 +90,30 @@
     }
   }
 }
+
+
+
+
+
+.custom-footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f8f8f8;
+  border-top: 1px solid #e0e0e0;
+  z-index: 10;
+  padding: 5px 0;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}

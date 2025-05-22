@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 # 🐼 About Me
-<i>**Jianmin Liu**</i> is currently a Ph.D. student at Xi'an Jiaotong University specializing in **Federated Learning** and **Large Language Models**, under the supervision of Associate Prof. **[Li Yan](https://liyan2015.github.io/)**. Prior to this, he obtained a master's degree in Cyberspace Security from Fujian Normal University under the supervision of Prof. *[Hui Lin](https://ccs.fjnu.edu.cn/0d/98/c16741a331160/page.htm)* and Prof. *[Xiaoding Wang](https://xiaodingwang.github.io/WangXiaoding.github.io/)*, focusing on research related to spatiotemporal traffic data in smart cities. Currently, his research is expecting to promote large language models to a more secure, low-cost and privacy-protected new stage. He possesses a strong sense of initiative and hope to have the opportunity to explore interesting and meaningful things with you.
+<i>**Jianmin Liu**</i> is currently a Ph.D. student at Xi'an Jiaotong University specializing in **Federated Learning** and **Large Language Models**, under the supervision of Associate Prof. **[Li Yan](https://liyan2015.github.io/)**. Prior to this, he obtained a master's degree in Cyberspace Security from Fujian Normal University, focusing on research related to spatiotemporal traffic data in smart cities. Currently, his research is expecting to promote large language models to a more secure, low-cost and privacy-protected new stage. He possesses a strong sense of initiative and hope to have the opportunity to explore interesting and meaningful things with you.
 
 <span class='anchor' id='news'></span>
 {% include_relative includes/news.md %}
@@ -32,7 +32,4 @@ redirect_from:
 {% include_relative includes/contact.md %} -->
 
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=a09d9d&w=550&t=n&d=aJXbRAq8L914nem5MbNfBr6sHx9heTatErrk5KvM6hA&co=ffffff&cmo=7f77ed&cmn=66e866&ct=133970'></script>
-
-{% include_relative includes/footer.md %}
 

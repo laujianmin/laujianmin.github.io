@@ -1,10 +1,40 @@
 # 💬 Services
 <ul style="margin:0 0 5px;">
 
+  {% assign journal_reviews = site.data.service.main | where: "event", "Journal_Reviews" %}
+  {% if journal_reviews.size > 0 %}
+    <h4>[Journal Reviews]</h4>
+    {% for service in journal_reviews %}
+        <li>
+          <!-- {{ service.event }} for  -->
+          {% if service.href %}  
+            <a href="{{ service.href }}">{{ service.object }} ({{ service.date }})</a>
+          {% else %}
+            {{ service.object }} ({{ service.date }})
+          {% endif %}.
+        </li>
+    {% endfor %}
+  {% endif %}
+
+  <!-- 会议审稿（仅在存在数据时显示整个版块） -->
+  {% assign conference_reviews = site.data.service.main | where: "event", "Conference_Reviews" %}
+  {% if conference_reviews.size > 0 %}
+    <h4>[Conference Reviews]</h4>
+    {% for service in conference_reviews %}
+      <li>
+        <!-- {{ service.event }} for  -->
+        {% if service.href %}  
+          <a href="{{ service.href }}">{{ service.object }} ({{ service.date }})</a>
+        {% else %}
+          {{ service.object }} ({{ service.date }})
+        {% endif %}.
+      </li>
+      {% endfor %}
+  {% endif %}
+  
+
+  <!-- 其他类型服务：助教、 -->
   {% for service in site.data.service.main %}
-    {% if service.event == 'Reviewer' %}
-      <li>{{ service.event }} for <a href="{{ service.href }}">{{ service.object }} ({{ service.date }})</a>.</li>
-    {% endif %}
     {% if service.event == 'Assistant' %}
       <li>Teaching assistant for <em>{{ service.object }}</em> courses ({{ service.date }}).</li>
     {% endif %}

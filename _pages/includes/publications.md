@@ -1,6 +1,7 @@
 # 📝 Publications
 <p><strong>Note: *</strong>  <em>indicates</em> Corresponding authors.</p>
-{% for link in site.data.publications.journal %}
+{% assign all_pubs = site.data.publications.journal | concat: site.data.publications.preprint  | sort: "date" | reverse%}
+{% for link in all_pubs %}
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div><div class="badge">{{ link.journal_short }}</div><img src='{{ link.image }}' alt="sym" width="100%"></div>
@@ -9,7 +10,7 @@
     <div class="title"><a href="{{ link.doi }}">{{ link.title }}</a></div>
     <div class="author">{{ link.authors }}</div>
     <p></p>
-    <div class="periodical"><em>{{ link.conference}} {{link.journal}}</em></div>
+    <div class="periodical"><em>{{ link.conference}} {{link.journal}}, {{link.date}}.</em></div>
     <li>{{ link.notes }} <strong><span class='show_paper_citations' data='{{ link.cited }}'></span></strong></li>
     <li>{{ link.keywords }}</li>
 

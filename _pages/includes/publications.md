@@ -23,7 +23,7 @@
       <a href="{{ link.code }}" class="small-btn" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
       {% if link.page %}
-      <a href="{{ link.page }}" class="small-btn" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="{{ link.page }}" class="small-btn" role="button" target="_blank" style="font-size:12px;">Page</a>
       {% endif %}
       {% if link.bibtex %}
       <button class="small-btn" role="button" target="_blank" style="font-size:12.5px;" onclick="copyToClipboard(`{{ link.bibtex }}`)">BibTex</button>

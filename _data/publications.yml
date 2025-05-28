@@ -70,6 +70,7 @@ preprint:
     keywords: Federated Learning, Homomorphic Encryption, LoRA
     pdf: https://doi.org/10.48550/arXiv.2505.21051
     code: https://anonymous.4open.science/r/SHE-LoRA-8D84
+    page: https://arxiv.org/html/2505.21051v1
     bibtex: |
             @misc{liu2025shelora,
             title={SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA}, 

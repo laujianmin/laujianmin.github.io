@@ -2,7 +2,8 @@ journal:
   - title: Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model
     authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan
     journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
+    journal: Information Fusion <strong>(INFFUS)</strong>
+    date: 2024
     keywords: Trajectory prediction, Causal inference, Scene fusion, Intelligent transportation
     cited : zigGlzAAAAAJ:9yKSN-GCB0IC
     pdf: https://doi.org/10.1016/j.inffus.2024.102309
@@ -23,7 +24,8 @@ journal:
   - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
     authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud
     journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
+    journal: Information Fusion <strong>(INFFUS)</strong>
+    date: 2024
     keywords: Motion forecasting, Intelligent transportation, Spatial–temporal cross attention
     cited: zigGlzAAAAAJ:u5HHmVD_uO8C
     pdf: https://doi.org/10.1016/j.inffus.2023.102046
@@ -43,7 +45,8 @@ journal:
   - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
     authors: <strong><u>Jianmin Liu</u></strong>; Xiaoding Wang;  Hui Lin*; Feng Yu
     journal_short: ACM-TOSN
-    journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>, 2023.
+    journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>
+    date: 2023
     keywords: Traic Prediction, Graph Neural Networks, Attention Mechanism
     cited: zigGlzAAAAAJ:u-x6o8ySG0sC
     pdf: https://doi.org/10.1145/3631608
@@ -57,3 +60,25 @@ journal:
             }
     image: ./assets/images/teaser/acm-tosn.png 
     notes: CCF-B
+
+preprint:
+  - title: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA"
+    authors: <strong><u>Jianmin Liu</u></strong>; Li Yan*; Borui Li; Lei Yu; Chao
+    journal_short: arXiv
+    journal: arXiv preprint <strong>(arXiv)</strong>
+    date: 2025
+    keywords: Federated Learning, Homomorphic Encryption, LoRA
+    pdf: https://doi.org/10.48550/arXiv.2505.21051
+    code: https://anonymous.4open.science/r/SHE-LoRA-8D84
+    bibtex: |
+            @misc{liu2025shelora,
+            title={SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA}, 
+            author={Jianmin Liu and Li Yan and Borui Li and Lei Yu and Chao Shen},
+            year={2025},
+            eprint={2505.21051},
+            archivePrefix={arXiv},
+            primaryClass={cs.CR},
+            url={https://arxiv.org/abs/2505.21051}, 
+            }
+    image: ./assets/images/teaser/she-lora.png 
+    notes: Preprint

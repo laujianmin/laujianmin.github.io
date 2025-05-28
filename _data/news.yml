@@ -1,4 +1,7 @@
 main:
+  - date: 28 May. 2025
+    msg: 'Our paper: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA" has been released now!'
+
   - date: Jun. 2024
     msg: I was honored with the title of <strong>Excellent Graduating Graduate Student</strong> at Fujian Normal University.
 

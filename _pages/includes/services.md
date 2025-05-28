@@ -11,7 +11,7 @@
           {% else %}
             {{ service.object }} ({{ service.date }})
           {% endif %}
-          [J].
+          .
         </li>
     {% endfor %}
   {% endif %}
@@ -27,7 +27,7 @@
         {% else %}
           {{ service.object }} ({{ service.date }})
         {% endif %}
-        [C].
+        .
       </li>
       {% endfor %}
   {% endif %}

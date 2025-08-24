@@ -128,7 +128,7 @@ preprint:
     image: 
     notes: 
 
-- title: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA"
+  - title: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA"
     authors: <strong><u>Jianmin Liu</u></strong>; Li Yan*; Borui Li; Lei Yu; Chao Shen
     journal_short: arXiv
     journal: arXiv preprint <strong>(arXiv)</strong>
@@ -148,7 +148,7 @@ preprint:
             url={https://arxiv.org/abs/2505.21051}, 
             }
     image: ./assets/images/teaser/she-lora.png 
-    notes: Preprint
+    notes: 
 
 ######## Conference ########
 conference:

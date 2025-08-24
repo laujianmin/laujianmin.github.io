@@ -1,6 +1,6 @@
 main:
   - date: 24 Aug. 2025
-    msg: I have been awarded the <strong>Cybersecurity CollegeStudent Innovation Funding</strong> by the <strong>Ant Group</strong> in support of research on <em>Privacy-protected LLMs</em>.
+    msg: I have been awarded the <strong>Cybersecurity College Student Innovation Funding</strong> by the <strong>Ant Group</strong> in support of research on <em>Privacy-protected LLMs</em>.
 
   - date: 28 May. 2025
     msg: 'Our paper: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA" has been released now!'

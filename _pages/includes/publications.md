@@ -41,7 +41,7 @@
 </div>
 {% endfor %}
 
-<p><strong>Other publications:</strong> </p>
+<p><strong>All publications:</strong> </p>
 {% assign all_pubs = site.data.publications.journal | concat: site.data.publications.preprint | concat: site.data.publications.conference | sort: "date" | reverse%}
 {% for link in all_pubs %}  
 <div class='paper-box-text'>

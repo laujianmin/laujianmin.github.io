@@ -1,47 +1,5 @@
+############# Journal ########
 journal:
-  - title: Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model
-    authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan
-    journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>
-    date: 2024
-    keywords: Trajectory prediction, Causal inference, Scene fusion, Intelligent transportation
-    cited : zigGlzAAAAAJ:9yKSN-GCB0IC
-    pdf: https://doi.org/10.1016/j.inffus.2024.102309
-    slices:
-    bibtex: | 
-            @article{liu2024reliable,
-              title={Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model},
-              author={Liu, Jianmin and Lin, Hui and Wang, Xiaoding and Wu, Lizhao and Garg, Sahil and Hassan, Mohammad Mehedi},
-              journal={Information Fusion},
-              volume={102},
-              pages={102309},
-              year={2024},
-              publisher={Elsevier}
-            }
-    image: ./assets/images/teaser/inffus-causal.png
-    notes: SCI-1区,IF=18.6
-
-  - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
-    authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud
-    journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>
-    date: 2024
-    keywords: Motion forecasting, Intelligent transportation, Spatial–temporal cross attention
-    cited: zigGlzAAAAAJ:u5HHmVD_uO8C
-    pdf: https://doi.org/10.1016/j.inffus.2023.102046
-    bibtex: | 
-            @article{wang2024multi, 
-              title={A multi-modal spatial--temporal model for accurate motion forecasting with visual fusion},
-              author={Wang, Xiaoding and Liu, Jianmin and Lin, Hui and Garg, Sahil and Alrashoud, Mubarak},
-              journal={Information Fusion},
-              volume={102},
-              pages={102046},
-              year={2024},
-              publisher={Elsevier}
-            }
-    image: ./assets/images/teaser/inffus-motion.png
-    notes: SCI-1区,IF=18.6
-
   - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
     authors: <strong><u>Jianmin Liu</u></strong>; Xiaoding Wang;  Hui Lin*; Feng Yu
     journal_short: ACM-TOSN
@@ -60,26 +18,92 @@ journal:
             }
     image: ./assets/images/teaser/acm-tosn.png 
     notes: CCF-B
+  
+  - title: "Bad-MFL: A Cross-Modality Bi-Trigger Backdoor Attack Against Multi-Modal Federated Learning"
+    authors: Yuefeng Lai; Lizhao Wu; Hui Lin; <strong><u>Jianmin Liu</u></strong>
+    journal_short: IEEE-IOTJ
+    journal: IEEE Internet of Things Journal <strong>(IOTJ)</strong>
+    date: 2025
+    keywords: Federated Learning,Multi-modal Federated Learning,Multimodal Data,Backdoor Attack
+    cited: zigGlzAAAAAJ:qjMakFHDy7sC
+    pdf: https://doi.org/10.1109/JIOT.2025.3589136
+    bibtex: |
+            @ARTICLE{11080282,
+            author={Lai, Yuefeng and Wu, Lizhao and Lin, Hui and Liu, Jianmin},
+            journal={IEEE Internet of Things Journal}, 
+            title={Bad-MFL: A Cross-Modality Bi-Trigger Backdoor Attack Against Multi-Modal Federated Learning}, 
+            year={2025},
+            volume={},
+            number={},
+            pages={1-1},
+            keywords={Training;Federated learning;Data models;Computational modeling;Servers;Mathematical models;Semantics;Implants;Attention mechanisms;Vectors;Federated Learning;Multi-modal Federated Learning;Multimodal Data;Backdoor Attack},
+            doi={10.1109/JIOT.2025.3589136}}
+            }
+    image: 
+    notes: CCF-C, SCI-2区
 
+###### Preprint ########
 preprint:
-  - title: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA"
-    authors: <strong><u>Jianmin Liu</u></strong>; Li Yan*; Borui Li; Lei Yu; Chao Shen
+  - title: "SelectiveShield: Lightweight Hybrid Defense Against Gradient Leakage in Federated Learning"
+    authors: Borui Li; Li Yan; <strong><u>Jianmin Liu</u></strong>
     journal_short: arXiv
     journal: arXiv preprint <strong>(arXiv)</strong>
     date: 2025
-    keywords: Federated Learning, Homomorphic Encryption, LoRA
-    pdf: https://doi.org/10.48550/arXiv.2505.21051
-    code: https://anonymous.4open.science/r/SHE-LoRA-8D84
-    page: https://arxiv.org/html/2505.21051v1
+    keywords: Federated Learning, Homomorphic Encryption, Differential Privacy
+    pdf: https://arxiv.org/abs/2508.04265
+    code: 
+    page: https://arxiv.org/html/2508.04265
     bibtex: |
-            @misc{liu2025shelora,
-            title={SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA}, 
-            author={Jianmin Liu and Li Yan and Borui Li and Lei Yu and Chao Shen},
+            @misc{li2025selectiveshieldlightweighthybriddefense,
+            title={SelectiveShield: Lightweight Hybrid Defense Against Gradient Leakage in Federated Learning}, 
+            author={Borui Li and Li Yan and Jianmin Liu},
             year={2025},
-            eprint={2505.21051},
+            eprint={2508.04265},
             archivePrefix={arXiv},
-            primaryClass={cs.CR},
-            url={https://arxiv.org/abs/2505.21051}, 
+            primaryClass={cs.DC},
+            url={https://arxiv.org/abs/2508.04265}, 
             }
-    image: ./assets/images/teaser/she-lora.png 
-    notes: Preprint
+    image: 
+    notes: 
+
+  - title: "SenseCrypt: Sensitivity-guided Selective Homomorphic Encryption for Joint Federated Learning in Cross-Device Scenarios"
+    authors: Borui Li; Li Yan; Junhao Han; <strong><u>Jianmin Liu</u></strong>; Lei Yu
+    journal_short: arXiv
+    journal: arXiv preprint <strong>(arXiv)</strong>
+    date: 2025
+    keywords: Federated Learning, Homomorphic Encryption, Differential Privacy
+    pdf: https://arxiv.org/abs/2508.04100
+    code: 
+    page: https://arxiv.org/html/2508.04100
+    bibtex: |
+            @article{li2025sensecrypt,
+            title={SenseCrypt: Sensitivity-guided Selective Homomorphic Encryption for Joint Federated Learning in Cross-Device Scenarios},
+            author={Li, Borui and Yan, Li and Han, Junhao and Liu, Jianmin and Yu, Lei},
+            journal={arXiv preprint arXiv:2508.04100},
+            year={2025}
+            }
+    image: 
+    notes: 
+
+
+######## Conference ########
+conference:
+  - title: "Efficient and Reliable Federated Recommendation System in Temporal Scenarios"
+    authors: Jingzhou Ye; Hui Lin; Xiaoding Wang; Chen Dong; <strong><u>Jianmin Liu</u></strong>
+    journal_short: GPC
+    journal: International Conference on Green, Pervasive, and Cloud Computing <strong>(GPC)</strong>
+    date: 2023
+    keywords: Federated Learning, Business Transaction, Tensor Factorization, Time Interaction Learning
+    cited: zigGlzAAAAAJ:d1gkVwhDpl0C
+    pdf: https://link.springer.com/chapter/10.1007/978-981-99-9896-8_7
+    bibtex: |
+            @inproceedings{ye2023efficient,
+            title={Efficient and Reliable Federated Recommendation System in Temporal Scenarios},
+            author={Ye, Jingzhou and Lin, Hui and Wang, Xiaoding and Dong, Chen and Liu, Jianmin},
+            booktitle={International Conference on Green, Pervasive, and Cloud Computing},
+            pages={97--107},
+            year={2023},
+            organization={Springer}
+            }
+    image: 
+    notes: 

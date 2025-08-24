@@ -1,6 +1,7 @@
 # 📝 Publications
-<p><strong>Note: *</strong>  <em>indicates</em> Corresponding authors.</p>
-{% assign all_pubs = site.data.publications.journal | concat: site.data.publications.preprint  | sort: "date" | reverse%}
+<p><strong>Selected Publications</strong> (<em>Note: * indicates Corresponding authors.</em>)</p>
+
+{% assign all_pubs = site.data.selected_publications.journal | concat: site.data.selected_publications.preprint | sort: "date" | reverse%} 
 {% for link in all_pubs %}
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -39,5 +40,18 @@
   </div>
 </div>
 {% endfor %}
+
+<p><strong>Other publications:</strong> </p>
+{% assign all_pubs = site.data.publications.journal | concat: site.data.publications.preprint | concat: site.data.publications.conference | sort: "date" | reverse%}
+{% for link in all_pubs %}  
+<div class='paper-box-text'>
+    <p>[{{ forloop.index }}] {{ link.authors }}. {{ link.title }}.<em>{{ link.conference}} {{link.journal}}, {{link.date}}</em>. 
+    {% if link.code %}
+      <a href="{{ link.code }}">[Code]</a>
+    {% endif %} 
+    <font color="#ff0000">{{ link.notes }}</font> </p>
+</div>
+{% endfor %}
+
 <span id="total_cit" style="display: none; text-align: right; color: #888 !important;"></span>
 

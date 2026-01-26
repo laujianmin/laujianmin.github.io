@@ -1,4 +1,7 @@
 main:
+  - date: 26 Jan. 2026
+    msg: 'Our paper: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA" has been accepted by <strong>ICLR 2026</strong>!'
+
   - date: 24 Aug. 2025
     msg: I have been awarded the <strong>Cybersecurity College Student Innovation Funding</strong> by the <strong>Ant Group</strong> in support of research on <em>Privacy-protected LLMs</em>.
 

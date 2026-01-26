@@ -128,30 +128,29 @@ preprint:
     image: 
     notes: 
 
+
+
+######## Conference ########
+conference:
   - title: "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA"
     authors: <strong><u>Jianmin Liu</u></strong>; Li Yan*; Borui Li; Lei Yu; Chao Shen
-    journal_short: arXiv
-    journal: arXiv preprint <strong>(arXiv)</strong>
+    journal_short: ICLR
+    journal: <strong>International Conference on Learning Representations</strong>
     date: 2025
     keywords: Federated Learning, Homomorphic Encryption, LoRA
-    pdf: https://doi.org/10.48550/arXiv.2505.21051
+    pdf: https://openreview.net/forum?id=PWChrnrw7Z
     code: https://anonymous.4open.science/r/SHE-LoRA-8D84
     page: https://arxiv.org/html/2505.21051v1
     bibtex: |
-            @misc{liu2025shelora,
-            title={SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA}, 
-            author={Jianmin Liu and Li Yan and Borui Li and Lei Yu and Chao Shen},
-            year={2025},
-            eprint={2505.21051},
-            archivePrefix={arXiv},
-            primaryClass={cs.CR},
-            url={https://arxiv.org/abs/2505.21051}, 
+            @inproceedings{liu2026shelora,
+            title={SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA},
+            author={Liu, Jianmin and Yan, Li and Li, Borui and Yu, Lei and Shen, Chao},
+            booktitle={Proc. of ICLR},
+            year={2026},
             }
     image: ./assets/images/teaser/she-lora.png 
     notes: 
 
-######## Conference ########
-conference:
   - title: "Efficient and Reliable Federated Recommendation System in Temporal Scenarios"
     authors: Jingzhou Ye; Hui Lin; Xiaoding Wang; Chen Dong; <strong><u>Jianmin Liu</u></strong>
     journal_short: GPC

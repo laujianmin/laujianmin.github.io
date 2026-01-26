@@ -12,7 +12,9 @@
     <div class="author">{{ link.authors }}</div>
     <p></p>
     <div class="periodical"><em>{{ link.conference}} {{link.journal}}, {{link.date}}.</em></div>
-    <li>{{ link.notes }} <strong><span class='show_paper_citations' data='{{ link.cited }}'></span></strong></li>
+    {% if link.notes %}
+     <li>{{ link.notes }} <strong><span class='show_paper_citations' data='{{ link.cited }}'></span></strong></li>
+    {% endif %}
     <li>{{ link.keywords }}</li>
 
     <div class="links">

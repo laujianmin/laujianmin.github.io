@@ -51,7 +51,7 @@ conference:
     authors: <strong><u>Jianmin Liu</u></strong>; Li Yan*; Borui Li; Lei Yu; Chao Shen
     journal_short: ICLR
     journal: <strong>International Conference on Learning Representations</strong>
-    date: 2025
+    date: 2026
     keywords: Federated Learning, Homomorphic Encryption, LoRA
     pdf: https://openreview.net/forum?id=PWChrnrw7Z
     code: https://anonymous.4open.science/r/SHE-LoRA-8D84
@@ -64,4 +64,3 @@ conference:
             year={2026},
             }
     image: ./assets/images/teaser/she-lora.png 
-    notes: 

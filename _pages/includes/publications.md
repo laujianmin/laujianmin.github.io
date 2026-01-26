@@ -1,7 +1,7 @@
 # 📝 Publications
 <p><strong>Selected Publications</strong> (<em>Note: * indicates Corresponding authors.</em>)</p>
 
-{% assign all_pubs = site.data.selected_publications.journal | concat: site.data.selected_publications.preprint | sort: "date" | reverse%} 
+{% assign all_pubs = site.data.selected_publications.journal | concat: site.data.selected_publications.conference | sort: "date" | reverse%} 
 {% for link in all_pubs %}
 <div class='paper-box'>
   <div class='paper-box-image'>

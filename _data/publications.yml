@@ -139,12 +139,11 @@ conference:
     date: 2026
     keywords: Federated Learning, Homomorphic Encryption, LoRA
     pdf: https://openreview.net/forum?id=PWChrnrw7Z
-    code: https://anonymous.4open.science/r/SHE-LoRA-8D84
-    page: https://arxiv.org/html/2505.21051v1
+    code: https://github.com/liyan2015/SHE-LoRA
     bibtex: |
-            @inproceedings{liu2026shelora,
-            title={SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA},
+            @INPROCEEDINGS{SHE-LoRA,
             author={Liu, Jianmin and Yan, Li and Li, Borui and Yu, Lei and Shen, Chao},
+            title={{SHE}-Lo{RA}: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous Lo{RA}},
             booktitle={Proc. of ICLR},
             year={2026},
             }
